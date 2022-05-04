@@ -27,6 +27,8 @@ This project leverages the following tools for financial analysis:
 
 To run this application, open app.py in VSCode and open a new terminal. Once the new terminal window is opened, run the following command "streamlit run pychain.py". Once Streamlit is opened, you may explore the application and add as many blocks to the blockchain as needed.
 
+There is also a slider to change the difficulty level for the "puzzle" to add additional blocks to the blockchain. You can experiment with the slider and see that the harder the difficulty, the longer it takes for the puzzle to be solved and and the block be added to the blockchain. In a real world scenario, miners and/or validators will compete to solve the puzzle the fastest to be awarded the privilage to add the next block to the blockchain and be awarded the gas fees associated with the transaction.
+
 ---
 ## Streamlit Interface
 
