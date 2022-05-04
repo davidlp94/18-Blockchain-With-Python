@@ -10,7 +10,7 @@
 
 
 # Blockchain With Python
-This repository contains a Python file named app.py which uses Python modules to create a temporary blockchain called PyChain. Using Streamlit, a web interface can be generated which takes (3) different inputs, sender information, receiver information and the amount being sent. Using the Streamlit application, you can generate several different block that are chained together using sha-256 hashing. You can also validate the blockchain by clicking "Validate Chain" in which each block is validated by comparing the previous-hash of the block to the data attribute in the new block that contains the previous hash. If they match, that block is validated and gets added to the blockchain.
+This repository contains a Python file named pychain.py which uses Python modules to create a temporary blockchain called PyChain. Using Streamlit, a web interface can be generated which takes (3) different inputs, sender information, receiver information and the amount being sent. Using the Streamlit application, you can generate several different block that are chained together using sha-256 hashing. You can also validate the blockchain by clicking "Validate Chain" in which each block is validated by comparing the previous-hash of the block to the data attribute in the new block that contains the previous hash. If they match, that block is validated and gets added to the blockchain.
 
 ---
 
@@ -24,6 +24,8 @@ This project leverages the following tools for financial analysis:
 - Streamlit
 - VSCode
 - Git Bash
+
+To run this application, open app.py in VSCode and open a new terminal. Once the new terminal window is opened, run the following command "streamlit run pychain.py". Once Streamlit is opened, you may explore the application and add as many blocks to the blockchain as needed.
 
 ---
 ## Streamlit Interface
